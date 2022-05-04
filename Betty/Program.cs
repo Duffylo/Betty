@@ -110,6 +110,7 @@ public class Program
             try
             {
                 casino.Withdraw(wAmount, player);
+                Console.WriteLine($"Withdrawn successfully {wAmount}");
             }
             catch (WithdrawalException we)
             {
