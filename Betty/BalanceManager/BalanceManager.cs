@@ -37,8 +37,6 @@ public class BalanceManager : IBalanceManager
     {
         //transaction closing bet and increase balance
         player.Balance += betResult;
-        //logger.LogInformation($"Closing betId: {betId}");
-        //logger.LogInformation("BetClosed");
         return true;
     }
 
