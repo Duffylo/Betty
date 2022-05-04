@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-public class CasinoPlayer
+﻿public class CasinoPlayer
 {
     public CasinoPlayer(Guid id, string name, int startingBalance)
     {

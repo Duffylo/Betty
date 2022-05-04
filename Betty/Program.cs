@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Betty;
+﻿using Betty;
 using Microsoft.Extensions.DependencyInjection;
 
 public class Program
