@@ -24,7 +24,6 @@ public class BalanceManager : IBalanceManager
             // transaction
             player.Balance -= amount;
             var betId = Guid.NewGuid();
-            //logger.LogInformation($"Registering bet opening game: {game.GameId} player: {player.Id} amount: {amount}");
             return betId;
         }
         else
